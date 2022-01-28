@@ -113,4 +113,4 @@ Then use the edge of the soldering iron (not the tip) and gently rub it up and d
 
 Once all four sections of heat shrink have been secured around the joints, you should have your completed RGB LED, ready to connect directly to your GPIO pins.
 
-![RGB LED with resistors and four jumper wires, wrapped in heat shrink.](images/rgb-led-finished.png)
+![RGB LED with resistors and four jumper wires, wrapped in heat shrink.](images/rgb-led-finished.jpg)
