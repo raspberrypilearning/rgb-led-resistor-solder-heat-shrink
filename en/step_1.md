@@ -23,8 +23,8 @@ For each of the LED's legs, use a soldering iron to heat them for a few seconds,
 
 --- no-print ---
 
-![The first leg of the RGB LED coated in solder.](images/tin-first-leg.gif)
-![The last leg of the RGB LED coated in solder.](images/tin-all-legs.gif)
+![The legs of the RGB LED coated in solder.](images/tin_rgb.gif)
+
 
 --- /no-print ---
 
@@ -40,7 +40,7 @@ Repeat this procedure with both legs of the three resistors.
 
 --- no-print ---
 
-![resistor with it's leg tinned with solder.](images/tin-resistor.gif)
+![resistor with it's leg tinned with solder.](images/tin_resistor.gif)
 
 --- /no-print ---
 
@@ -59,7 +59,7 @@ Then use the soldering iron to heat both legs, so that the solder melts and they
 
 --- no-print ---
 
-![leg of RBG LED soldered to the resistor](images/bond-resistor.gif)
+![leg of RBG LED soldered to the resistor](images/bond_resistor.gif)
 
 --- /no-print ---
 
@@ -88,8 +88,8 @@ Tin the stripped ends of the jumper leads, then bond them to the legs of the LED
 
 --- no-print ---
 
-![the stripped end of a jumper wire being tinned](images/tin-jumper.gif)
-![the jumper wire being bonded to a resistor](images/bond-jumper.gif)
+![the stripped end of a jumper wire being tinned](images/tin_jumper.gif)
+![the jumper wire being bonded to a resistor](images/bond_jumpers.gif)
 
 --- /no-print ---
 
@@ -101,7 +101,8 @@ Then use the edge of the soldering iron (not the tip) and gently rub it up and d
 
 --- no-print ---
 
-![edge of soldering iron held near the heat shrink tubbing](images/heat-shrink.gif)
+![heat shrink being slid over the resistors and legs](images/position_heat_shrink.gif)
+![edge of soldering iron held near the heat shrink tubbing](images/shrink_heat_shrink.gif)
 
 --- /no-print ---
 
