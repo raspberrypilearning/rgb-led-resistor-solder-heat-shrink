@@ -1,115 +1,115 @@
-## Gather components
+## Rassembler les composants
 
-You will need:
-+ 4 x socket-socket jumper wires, ideally including red, green and blue and black
-+ 3 x same value resistors, around 70 Ohm or higher
-+ 1 x common cathode RGB LED
-+ Solder and heat shrink
-+ wire cutters or strippers
+Tu auras besoin de :
++ 4 x fils de liaison prise-prise, comprenant idéalement un rouge, un vert, un bleu et un noir
++ 3 x résistances de même valeur, environ 70 Ohm ou plus
++ 1 x LED RVB à cathode commune
++ De la soudure et gaine thermorétractable
++ coupe-fils ou dénudeurs
 
-![4 socket jumper leads, 3 75ohm resistors, heat shrink and an EGB LED](images/kit.jpg)
-## Find the red leg of the RGB LED
+![4 câbles de connexion, 3 résistances de 75 ohms, gaine thermorétractable et une LED RVB](images/kit.jpg)
+## Trouver la patte rouge de la LED RVB
 
-A common cathode RGB LED has one longer leg which is the cathode and needs to be connected to ground (GND). Check the specification for your RGB LED but the order of the legs is usually red, cathode (longer leg), green, blue.
+Une LED RVB à cathode commune a une patte plus longue qui est la cathode et doit être connectée à la terre (GND). Vérifie les spécifications de ta LED RVB, mais l'ordre des pattes est généralement rouge, cathode (patte plus longue), vert, bleu.
 
-![An RGB LED with four legs, the second one is longer.](images/rgb-led-legs.png)
+![Une LED RVB à quatre pattes, la seconde est plus longue.](images/rgb-led-legs.png)
 
-Carefully spread the legs of the LED, and secure the LED using a helping-hands or a bulldog clip.
+Écarte soigneusement les pattes de la LED et fixe la LED à l'aide d'un coup de main à souder ou d'une pince à dessin.
 
-![An RGB LED with the legs spread apart](images/spread-legs.jpg)
-## Tin the LED's legs
+![Une LED RVB avec les pattes écartées](images/spread-legs.jpg)
+## Étamer les pattes de la LED
 
-For each of the LED's legs, use a soldering iron to heat them for a few seconds, then apply solder so that each leg is coated with an even layer of solder.
+Pour chacune des pattes de la LED, utilise un fer à souder pour les chauffer pendant quelques secondes, puis applique de la soudure afin que chaque patte soit recouverte d'une couche uniforme de soudure.
 
 --- no-print ---
 
-![The legs of the RGB LED coated in solder.](images/tin_rgb.gif)
+![Les pattes de la LED RVB recouvertes de soudure.](images/tin_rgb.gif)
 
 
 --- /no-print ---
 
 --- print-only ---
 
-![The legs of the RGB LED coated in solder.](images/tinned-legs.jpg)
+![Les pattes de la LED RVB recouvertes de soudure.](images/tinned-legs.jpg)
 
 --- /print-only ---
 
-## Tin the resistors
+## Étamer les résistances
 
-Repeat this procedure with both legs of the three resistors.
+Répète cette procédure avec les deux pattes des trois résistances.
 
 --- no-print ---
 
-![resistor with it's leg tinned with solder.](images/tin_resistor.gif)
+![résistance avec sa patte étamée avec de la soudure.](images/tin_resistor.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![image of a resistor with it's leg tinned with solder.](images/tinned-resistor.png)
+![image d'une résistance avec sa patte étamée avec de la soudure.](images/tinned-resistor.png)
 
 --- /print-only ---
-## Solder the resistors to the legs of the LED
+## Souder les résistances aux pattes de la LED
 
-Hold the leg of the resistor along side one of the anode legs of the LED.
+Maintiens la patte de la résistance le long de l'une des pattes d'anode de la LED.
 
-![leg of LED alongside one of the RGB LED's legs](images/adjacent-legs.jpg)
+![patte de LED à côté de l'une des pattes de la LED RVB](images/adjacent-legs.jpg)
 
-Then use the soldering iron to heat both legs, so that the solder melts and they bond together.
+Ensuite, utilise le fer à souder pour chauffer les deux pattes, afin que la soudure fonde et qu'elles se lient.
 
 --- no-print ---
 
-![leg of RBG LED soldered to the resistor](images/bond_resistor.gif)
+![patte de LED RVB soudée à la résistance](images/bond_resistor.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![leg of RBG LED soldered to the resistor](images/bonded-legs.jpg)
+![patte de LED RVB soudée à la résistance](images/bonded-legs.jpg)
 
 --- /print-only ---
 
-## Repeat for the remaining legs
+## Répéter l'opération pour les pattes restantes
 
-Repeat this procedure for all the LED legs, apart from the cathode (the longest leg).
+Répète cette procédure pour toutes les pattes de la LED, à l'exception de la cathode (la patte la plus longue).
 
-![three resistors soldered to to the anodes of the RGB LED](images/led-three-resistors.jpg)
+![trois résistances soudées aux anodes de la LED RVB](images/led-three-resistors.jpg)
 
-## Attach the four jumper wires
+## Fixer les quatre câbles de liaison
 
-Cut your jumper leads to your desired length and strip about 1cm of insulation from the end of the wires.
+Coupe tes câbles de liaison à la longueur souhaitée et dénude environ 1 cm d'isolant à l'extrémité des fils.
 
-Sheath the jumper wires with heat shrink.
+Gaine les câbles avec une gaine thermorétractable.
 
-![Cut and stripped jumper lead with lose heat shrink around most of it's length](images/jumper-lead.jpg)
+![Fil de liaison coupé et dénudé avec gaine thermorétractable sur la majeure partie de sa longueur](images/jumper-lead.jpg)
 
 
-Tin the stripped ends of the jumper leads, then bond them to the legs of the LED. If you have a black jumper lead, it should be attached to the cathode of the LED (the longest leg).
+Étame les extrémités dénudées des fils de liaison, puis colle-les aux pattes de la LED. Si tu as une connexion noire, elle doit être attaché à la cathode de la LED (la patte la plus longue).
 
 --- no-print ---
 
-![the stripped end of a jumper wire being tinned](images/tin_jumper.gif) ![the jumper wire being bonded to a resistor](images/bond_jumpers.gif)
+![l'extrémité dénudée d'un fil de liaison étant étamée](images/tin_jumper.gif) ![le fil de liaison étant soudé à une résistance](images/bond_jumpers.gif)
 
 --- /no-print ---
 
-![Four jumper wires are attached to an LED and a resistor.](images/soldered-jumper-leads.jpg)
+![Quatre fils de liaison sont attachés à une LED et à une résistance.](images/soldered-jumper-leads.jpg)
 
-Move the heat shrink up, so that it meets the base of the LED and covers the resistors and all the soldered joints.
+Déplace la gaine thermorétractable vers le haut, de sorte qu'elle rencontre la base de la LED et recouvre les résistances et tous les joints soudés.
 
-Then use the edge of the soldering iron (not the tip) and gently rub it up and down the heat shrink, causing it to shrink around the joints, and provide an insulated covering.
+Ensuite, utilise le bord du fer à souder (pas la pointe) et frotte-le doucement de haut en bas sur la gaine thermorétractable, cela fera rétrécir la gaine autour des joints et fournira une couverture isolante.
 
 --- no-print ---
 
-![heat shrink being slid over the resistors and legs](images/position_heat_shrink.gif) ![edge of soldering iron held near the heat shrink tubbing](images/shrink_heat_shrink.gif)
+![gaine thermorétractable étant glissée sur les soudures](images/position_heat_shrink.gif) ![bord du fer à souder tenu près de la gaine thermorétractable](images/shrink_heat_shrink.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![edge of soldering iron held near the heat shrink tubbing](images/shrinking-heat-shrink.jpg)
+![bord du fer à souder tenu près de la gaine thermorétractable](images/shrinking-heat-shrink.jpg)
 
 --- /print-only ---
 
-Once all four sections of heat shrink have been secured around the joints, you should have your completed RGB LED, ready to connect directly to your GPIO pins.
+Une fois que les quatre sections de gaine thermorétractable ont été fixées autour des joints, tu devrais avoir ta LED RVB terminée, prête à être connectée directement à tes broches GPIO.
 
-![RGB LED with resistors and four jumper wires, wrapped in heat shrink.](images/rgb-led-finished.jpg)
+![LED RVB avec résistances et quatre fils de liaison, enveloppés dans de la gaine thermorétractable.](images/rgb-led-finished.jpg)
