@@ -1,115 +1,115 @@
-## Gather components
+## Verzamel onderdelen
 
-You will need:
-+ 4 x socket-socket jumper wires, ideally including red, green and blue and black
-+ 3 x same value resistors, around 70 Ohm or higher
-+ 1 x common cathode RGB LED
-+ Solder and heat shrink
-+ wire cutters or strippers
+Je hebt nodig:
++ 4 x bus-bus jumperdraden, liefst ook rood, groen en blauw
++ 3 weerstanden van dezelfde waarde, ongeveer 70 Ohm of hoger
++ 1× RGB-led met gemeenschappelijke kathode
++ Soldeerbout en krimpkous
++ tang om draad te knippen of te strippen
 
-![4 socket jumper leads, 3 75ohm resistors, heat shrink and an EGB LED](images/kit.jpg)
-## Find the red leg of the RGB LED
+![4 bus-bus jumperdraden, 3 75ohm weerstanden, krimpkous en een RGB LED](images/kit.jpg)
+## Zoek de rode poot van de RGB-led
 
-A common cathode RGB LED has one longer leg which is the cathode and needs to be connected to ground (GND). Check the specification for your RGB LED but the order of the legs is usually red, cathode (longer leg), green, blue.
+Een gewone kathode RGB-led heeft één langere poot, de kathode en moet worden aangesloten op aarde (GND). Controleer de specificatie van je RGB-led, maar de volgorde van de poten is meestal rood, kathode (langere poot), groen, blauw.
 
-![An RGB LED with four legs, the second one is longer.](images/rgb-led-legs.png)
+![Een RGB LED met vier poten, de tweede is langer.](images/rgb-led-legs.png)
 
-Carefully spread the legs of the LED, and secure the LED using a helping-hands or a bulldog clip.
+Spreid de pootjes van de LED voorzichtig uit en zet de LED vast met behulp van een soldeerhulp of een krokodillenklem.
 
-![An RGB LED with the legs spread apart](images/spread-legs.jpg)
-## Tin the LED's legs
+![Een RGB LED met de poten uit elkaar](images/spread-legs.jpg)
+## Vertin de poten van de LED
 
-For each of the LED's legs, use a soldering iron to heat them for a few seconds, then apply solder so that each leg is coated with an even layer of solder.
+Gebruik voor elk van de led-poten een soldeerbout om ze een paar seconden te verwarmen en breng vervolgens soldeer aan zodat elke poot is bedekt met een gelijkmatige laag soldeer.
 
 --- no-print ---
 
-![The legs of the RGB LED coated in solder.](images/tin_rgb.gif)
+![De poten van de RGB-LED zijn bedekt met soldeer.](images/tin_rgb.gif)
 
 
 --- /no-print ---
 
 --- print-only ---
 
-![The legs of the RGB LED coated in solder.](images/tinned-legs.jpg)
+![De poten van de RGB-LED zijn bedekt met soldeer.](images/tinned-legs.jpg)
 
 --- /print-only ---
 
-## Tin the resistors
+## Vertin de weerstanden
 
-Repeat this procedure with both legs of the three resistors.
+Herhaal deze procedure met alle draden van de drie weerstanden.
 
 --- no-print ---
 
-![resistor with it's leg tinned with solder.](images/tin_resistor.gif)
+![weerstand met zijn draad vertind met soldeer.](images/tin_resistor.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![image of a resistor with it's leg tinned with solder.](images/tinned-resistor.png)
+![afbeelding van een weerstand met zijn draad vertind met soldeer.](images/tinned-resistor.png)
 
 --- /print-only ---
-## Solder the resistors to the legs of the LED
+## Soldeer de weerstanden aan de pootjes van de LED
 
-Hold the leg of the resistor along side one of the anode legs of the LED.
+Houd de draad van de weerstand naast een van de anode-pootjes van de LED.
 
-![leg of LED alongside one of the RGB LED's legs](images/adjacent-legs.jpg)
+![led-poot naast een van de led-pootjes van de RGB-led](images/adjacent-legs.jpg)
 
-Then use the soldering iron to heat both legs, so that the solder melts and they bond together.
+Gebruik vervolgens de soldeerbout om beide pootjes te verwarmen, zodat het soldeer smelt en ze aan elkaar hechten.
 
 --- no-print ---
 
-![leg of RBG LED soldered to the resistor](images/bond_resistor.gif)
+![poot van RGB LED gesoldeerd aan de weerstand](images/bond_resistor.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![leg of RBG LED soldered to the resistor](images/bonded-legs.jpg)
+![poot van RGB LED gesoldeerd aan de weerstand](images/bonded-legs.jpg)
 
 --- /print-only ---
 
-## Repeat for the remaining legs
+## Herhaal dit voor de overige pootjes
 
-Repeat this procedure for all the LED legs, apart from the cathode (the longest leg).
+Herhaal deze procedure voor alle LED-poten, behalve de kathode (de langste poot).
 
-![three resistors soldered to to the anodes of the RGB LED](images/led-three-resistors.jpg)
+![drie weerstanden gesoldeerd aan de anodes van de RGB LED](images/led-three-resistors.jpg)
 
-## Attach the four jumper wires
+## Bevestig de vier jumperdraden
 
-Cut your jumper leads to your desired length and strip about 1cm of insulation from the end of the wires.
+Knip je jumperdraden op de gewenste lengte en strip ongeveer 1 cm isolatie van het uiteinde van de draden.
 
-Sheath the jumper wires with heat shrink.
+Omhul de jumperdraden met de krimpkous.
 
-![Cut and stripped jumper lead with lose heat shrink around most of it's length](images/jumper-lead.jpg)
+![Afgeknipte en gestripte jumperdraad met losse krimpkous over het grootste deel van de lengte](images/jumper-lead.jpg)
 
 
-Tin the stripped ends of the jumper leads, then bond them to the legs of the LED. If you have a black jumper lead, it should be attached to the cathode of the LED (the longest leg).
+Vertin de gestripte uiteinden van de jumperdraden en plak ze vervolgens vast aan de pootjes van de LED. Als je een zwarte jumperdraad hebt, moet deze worden bevestigd aan de kathode van de LED (het langste been).
 
 --- no-print ---
 
-![the stripped end of a jumper wire being tinned](images/tin_jumper.gif) ![the jumper wire being bonded to a resistor](images/bond_jumpers.gif)
+![het gestripte uiteinde van een jumperdraad die wordt vertind](images/tin_jumper.gif) ![de jumperdraad wordt verbonden met een weerstand](images/bond_jumpers.gif)
 
 --- /no-print ---
 
-![Four jumper wires are attached to an LED and a resistor.](images/soldered-jumper-leads.jpg)
+![Vier jumperdraden zijn bevestigd aan een LED en een weerstand.](images/soldered-jumper-leads.jpg)
 
-Move the heat shrink up, so that it meets the base of the LED and covers the resistors and all the soldered joints.
+Schuif de krimpkous omhoog, zodat deze de basis van de LED raakt en de weerstanden en alle soldeerverbindingen bedekt.
 
-Then use the edge of the soldering iron (not the tip) and gently rub it up and down the heat shrink, causing it to shrink around the joints, and provide an insulated covering.
+Gebruik vervolgens de rand van de soldeerbout (niet de punt) en wrijf deze zachtjes op en neer over de krimpkous, waardoor deze rond de verbindingen krimpt en voor een geïsoleerde afdekking zorgt.
 
 --- no-print ---
 
-![heat shrink being slid over the resistors and legs](images/position_heat_shrink.gif) ![edge of soldering iron held near the heat shrink tubbing](images/shrink_heat_shrink.gif)
+![krimpkous die over de weerstanden en poten wordt geschoven](images/position_heat_shrink.gif) ![rand van soldeerbout die in de buurt van de krimpkous wordt gehouden](images/shrink_heat_shrink.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![edge of soldering iron held near the heat shrink tubbing](images/shrinking-heat-shrink.jpg)
+![rand van soldeerbout die in de buurt van de krimpkous wordt gehouden](images/shrinking-heat-shrink.jpg)
 
 --- /print-only ---
 
-Once all four sections of heat shrink have been secured around the joints, you should have your completed RGB LED, ready to connect directly to your GPIO pins.
+Zodra alle vier delen van de krimpkous rond de verbindingen zijn bevestigd is je voltooide RGB-LED klaar om rechtstreeks op je GPIO-pinnen aan te sluiten.
 
-![RGB LED with resistors and four jumper wires, wrapped in heat shrink.](images/rgb-led-finished.jpg)
+![RGB LED met weerstanden en vier jumperdraden, gewikkeld in de krimpkous.](images/rgb-led-finished.jpg)
