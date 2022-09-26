@@ -1,115 +1,115 @@
-## Gather components
+## جمع المكونات
 
-You will need:
-+ 4 x socket-socket jumper wires, ideally including red, green and blue and black
-+ 3 x same value resistors, around 70 Ohm or higher
-+ 1 x common cathode RGB LED
-+ Solder and heat shrink
-+ wire cutters or strippers
+سوف تحتاج:
++ 4 × أسلاك توصيل ذات مقبس، تشمل بشكل مثالي الأحمر والأخضر والأزرق والأسود
++ 3 ×مقاومات نفس القيمة، حوالي 70 أوم أو أكبر
++ 1 × متصل مضي ملون (RGB LED) مهبط مشترك
++ اللحام وأنابيب الانكماش الحراري
++ قاطعات أسلاك أو أدوات تقشير الأسلاك
 
-![4 socket jumper leads, 3 75ohm resistors, heat shrink and an EGB LED](images/kit.jpg)
-## Find the red leg of the RGB LED
+![4 أسلاك توصيل بمقبس، 3 مقاومات 75 أوم، شرنك حراري و EGB LED](images/kit.jpg)
+## ابحث عن القطب الأحمر للمتصل RGB LED
 
-A common cathode RGB LED has one longer leg which is the cathode and needs to be connected to ground (GND). Check the specification for your RGB LED but the order of the legs is usually red, cathode (longer leg), green, blue.
+يحتوي المتصل المضيء RGB LED ذو المهبط المشترك على قطب واحد أطول من البقية هو المهبط ويجب توصيله بالأرضي (GND). تحقق من مواصفات المتصل المضيء RGB LED الخاص بك ولكن ترتيب الأرجل عادة ما يكون أحمر، مهبط (أطول قطب)، أخضر، أزرق.
 
-![An RGB LED with four legs, the second one is longer.](images/rgb-led-legs.png)
+![متصل مضيء ملون RGB LED بأربعة أقطاب، والقطب الثاني أطول.](images/rgb-led-legs.png)
 
-Carefully spread the legs of the LED, and secure the LED using a helping-hands or a bulldog clip.
+انشر أرجل المتصل المضيء LED بعناية، وقم بإمساك المتصل باستخدام أيدي المساعدة أو مشبك.
 
-![An RGB LED with the legs spread apart](images/spread-legs.jpg)
-## Tin the LED's legs
+![RGB LED مع اقتطاع الأقطاب](images/spread-legs.jpg)
+## لحام أقطاب المتصل المضيء LED بالقصدير
 
-For each of the LED's legs, use a soldering iron to heat them for a few seconds, then apply solder so that each leg is coated with an even layer of solder.
+لكل قطب من أقطاب المتصل LED، استخدم كاوي اللحام بتسخينه لبضع ثوان، ثم قم بتطبيق اللحام بحيث يتم تغطية كل قطب بطبقة متساوية من اللحام.
 
 --- no-print ---
 
-![The legs of the RGB LED coated in solder.](images/tin_rgb.gif)
+![أقطاب RGB LED مطلية باللحام.](images/tin_rgb.gif)
 
 
 --- /no-print ---
 
 --- print-only ---
 
-![The legs of the RGB LED coated in solder.](images/tinned-legs.jpg)
+![أقطاب RGB LED مطلية باللحام.](images/tinned-legs.jpg)
 
 --- /print-only ---
 
-## Tin the resistors
+## لحام المقاومات بالقصدير
 
-Repeat this procedure with both legs of the three resistors.
+كرر هذا الإجراء بكلٍ من قطبي المقاومات الثلاثة.
 
 --- no-print ---
 
-![resistor with it's leg tinned with solder.](images/tin_resistor.gif)
+![المقاومة مع قطب مغطى باللحام.](images/tin_resistor.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![image of a resistor with it's leg tinned with solder.](images/tinned-resistor.png)
+![المقاومة مع قطب مغطى باللحام.](images/tinned-resistor.png)
 
 --- /print-only ---
-## Solder the resistors to the legs of the LED
+## لحام المقاومات مع أقطاب المتصل المضيء LED
 
-Hold the leg of the resistor along side one of the anode legs of the LED.
+أمسك قطب المقاومة على طول أحد أقطاب المصعد في المتصل المضيء LED.
 
-![leg of LED alongside one of the RGB LED's legs](images/adjacent-legs.jpg)
+![قطب من LED بجانب أحد أقطاب RGB LED](images/adjacent-legs.jpg)
 
-Then use the soldering iron to heat both legs, so that the solder melts and they bond together.
+ثم استخدم كاوي اللحام لتسخين كلا القطبين، بحيث يذوب اللحام ويترابطان معًا.
 
 --- no-print ---
 
-![leg of RBG LED soldered to the resistor](images/bond_resistor.gif)
+![قطب RBG LED تم تلحيمه بالمقاومة](images/bond_resistor.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![leg of RBG LED soldered to the resistor](images/bonded-legs.jpg)
+![قطب RBG LED تم تلحيمه بالمقاومة](images/bonded-legs.jpg)
 
 --- /print-only ---
 
-## Repeat for the remaining legs
+## كرر مع باقي الأقطاب
 
-Repeat this procedure for all the LED legs, apart from the cathode (the longest leg).
+كرر هذا الإجراء لجميع أقطاب المتصل المضيء LED، باستثناء المهبط (أطول قطب).
 
-![three resistors soldered to to the anodes of the RGB LED](images/led-three-resistors.jpg)
+![ثلاث مقاومات ملحومة بأقطاب RGB LED](images/led-three-resistors.jpg)
 
-## Attach the four jumper wires
+## قم بتوصيل اسلاك التوصيل الأربعة
 
-Cut your jumper leads to your desired length and strip about 1cm of insulation from the end of the wires.
+قطع أسلاك التوصيل بحسب الطول المطلوب وشريط حوالي 1 سم من العازل من نهاية الأسلاك.
 
-Sheath the jumper wires with heat shrink.
+غلف أسلاك التوصيل بالشرنك الحراري.
 
-![Cut and stripped jumper lead with lose heat shrink around most of it's length](images/jumper-lead.jpg)
+![أسلاك التوصيل المقطعة والمجردة مع الشرنك الحراري الذي يتقلص حول معظم طولها](images/jumper-lead.jpg)
 
 
-Tin the stripped ends of the jumper leads, then bond them to the legs of the LED. If you have a black jumper lead, it should be attached to the cathode of the LED (the longest leg).
+قم بقص النهايات المجردة لأسلاك التوصيل، ثم اربطها بأقطاب المتصل. إذا كان لديك سلك توصيل أسود، فيجب توصيله بالمهبط الخاص بالمتصل المضيء LED (أطول قطب).
 
 --- no-print ---
 
-![the stripped end of a jumper wire being tinned](images/tin_jumper.gif) ![the jumper wire being bonded to a resistor](images/bond_jumpers.gif)
+![يتم تلحيم الطرف المجرد من سلك التوصيل](images/tin_jumper.gif) ![يتم ربط سلك التوصيل بمقاومة](images/bond_jumpers.gif)
 
 --- /no-print ---
 
-![Four jumper wires are attached to an LED and a resistor.](images/soldered-jumper-leads.jpg)
+![أربعة أسلاك توصيل متصلة بمتصل LED ومقاومة.](images/soldered-jumper-leads.jpg)
 
-Move the heat shrink up, so that it meets the base of the LED and covers the resistors and all the soldered joints.
+قم بتحريك الشرنك الحراري، بحيث يلتقي بقاعدة LED ويغطي المقاومات وجميع الوصلات الملحومة.
 
-Then use the edge of the soldering iron (not the tip) and gently rub it up and down the heat shrink, causing it to shrink around the joints, and provide an insulated covering.
+ثم استخدم حافة كاوي اللحام (وليس القصدير) وافركها برفق لأعلى ولأسفل مع الشرنك الحراري، مما يؤدي إلى تقلصه حول التوصيلات، وتوفير غطاء عازل.
 
 --- no-print ---
 
-![heat shrink being slid over the resistors and legs](images/position_heat_shrink.gif) ![edge of soldering iron held near the heat shrink tubbing](images/shrink_heat_shrink.gif)
+![انزلاق الشرنك الحراري على المقاومات والأقطاب](images/position_heat_shrink.gif) ![حافة كاوي اللحام تم امساكها بالقرب من أنبوب الشرنك الحراري](images/shrink_heat_shrink.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![edge of soldering iron held near the heat shrink tubbing](images/shrinking-heat-shrink.jpg)
+![حافة كاوي اللحام تم امساكها بالقرب من أنبوب الشرنك الحراري](images/shrinking-heat-shrink.jpg)
 
 --- /print-only ---
 
-Once all four sections of heat shrink have been secured around the joints, you should have your completed RGB LED, ready to connect directly to your GPIO pins.
+بمجرد أن يتم تأمين جميع الأقسام الأربعة من الشرنك الحراري حول التوصيلات، يجب أن يكون لديك RGB LED مكتمل، وجاهز للاتصال مباشرة بأقطاب GPIO الخاصة بك.
 
-![RGB LED with resistors and four jumper wires, wrapped in heat shrink.](images/rgb-led-finished.jpg)
+![RGB LED مع مقاومات وأربعة أسلاك توصيل، ملفوفة باستخدام أنبوب الشرنك الحراري.](images/rgb-led-finished.jpg)
